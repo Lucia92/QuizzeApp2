@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user3.quizzeapp2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Quiz App">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FirstTopicActivity"
+            android:label="@string/android">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".CricketActivity"
+            android:label="@string/action_cricket">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".TechnologyActivity"
+            android:label="@string/action_technology">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".ResultsActivity"
+            android:label="@string/action_result"
+            android:parentActivityName=".TechnologyActivity">
+            <meta-data
+                android:name="android.support.ACTIVITY"
+                android:value=".TechnologyActivity"></meta-data>
+        </activity>
+    </application>
+
+</manifest>

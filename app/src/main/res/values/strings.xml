@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="action_android">Android</string>
+    <string name="action_technology">Technology</string>
+    <string name="action_cricket">Cricket</string>
+    <string name="action_result">Results</string>
+
+    <!--Questions for android topic-->
+    <string name="user_interface">It is not posible to create a user interface without XML file</string>
+    <string name="directory">Specify directory name where the XML layout files are stored</string>
+    <string name="basic_building_element">The basic building element of android"'"s user interface is called</string>
+    <string name="manifest">The root element of AndroidManifest.xml is:</string>
+    <string name="class_inherited">What is the class which is inherited to create a user interface screen</string>
+
+
+    <!--Answers for android topic-->
+    <string name="isTrue">True</string>
+    <string name="isFalse">False</string>
+    <string name="none">None</string>
+
+    <string name="res">/res/layout</string>
+    <string name="drawable">/drawable/layout</string>
+    <string name="values">/values/layout</string>
+
+
+    <string name="layout">Layout</string>
+    <string name="view">View</string>
+    <string name="xml">XML</string>
+
+
+    <string name="manifests">Manifest</string>
+
+
+    <string name="activity">Activity</string>
+    <string name="compat">AppCompatActivity</string>
+    <string name="action_view_instuctions">action_view_instructions</string>
+
+
+    <string name="android">Android</string>
+
+    <!--Questions for cricket topic-->
+    <string name="opponent">Who was South Africa"'"s opponent on their first One Day International world cup?</string>
+    <string name="batman">Which country is the number one world"'"s One Day International(ODI) batsman?</string>
+    <string name="browler">Is Dale Steyn the current number one browler in test cricket?</string>
+    <string name="twenty_twenty">Which nation is the current holder of the Twenty 20(T20) world cup?</string>
+    <string name="ever_won">Has South Africa ever won the One Day International(ODI) cricket?</string>
+
+    <!--Answers for cricket topic-->
+    <string name="austalia">Austalia</string>
+    <string name="pakistan">Pakistan</string>
+    <string name="west_indies">West Indies</string>
+
+    <string name="sri_anka">Sri Lanka</string>
+    <string name="bangladesh">Bangladesh</string>
+
+    <string name="maybe">Maybe</string>
+
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="new_zealand">New Zealand</string>
+    <string name="south_africa">South Africa</string>
+
+
+    <!--Technology questions-->
+   <string name = "largest">Which company is the largest manufacturer of network equipment?</string>
+   <string name = "os">"Which of the following is NOT an operating system?</string>
+   <string name = "memory">Which of the following is the fastest writable memory?</string>
+   <string name = "traffic">"Which of the following device regulates internet traffic?</string>
+   <string name = "language">"Which of the following is NOT an interpreted language?</string>
+
+
+    <!--Technology answers-->
+    <string name="cisco">CISCO</string>
+    <string name="bios">BIOS</string>
+    <string name="register">Register</string>
+    <string name="router">Router</string>
+    <string name="basic">Basic</string>
+
+</resources>
